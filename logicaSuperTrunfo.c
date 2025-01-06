@@ -1,13 +1,15 @@
 #include <stdio.h>
-
+criei o título
 // Desafio Super Trunfo - Países
 // Tema 2 - Comparação das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades. 
 // Siga os comentários para implementar cada parte do desafio.
 
-int main() {
+int main() {printf ("Desafio Super Trunfo 1");
+
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
+
 
     
     // Cadastro das Cartas:
