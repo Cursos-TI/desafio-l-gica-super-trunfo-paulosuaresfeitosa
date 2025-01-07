@@ -1,11 +1,45 @@
 #include <stdio.h>
-criei o título
+
 // Desafio Super Trunfo - Países
 // Tema 2 - Comparação das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades. 
 // Siga os comentários para implementar cada parte do desafio.
 
-int main() {printf ("Desafio Super Trunfo 1");
+int main() {
+    printf("Bem vindo ao Desafio Super Trunfo\n");
+
+    char estado[3]; // Para a sigla do estado
+    int codigo_carta;
+    char nome_cidade[100]; // Para o nome da cidade
+    int populacao; // População
+    float area; // Área
+    float pib; // PIB
+    int pontos_turisticos; // Número de pontos turísticos
+
+    printf("Entre com o estado (sigla): ");
+    scanf("%2s", estado);
+
+    printf("Entre com o código da carta: ");
+    scanf("%d", &codigo_carta);
+
+    // Limpa o buffer antes de ler uma string completa
+    getchar(); // Remove o caractere '\n' que ficou no buffer
+
+    printf("Entre com o nome da cidade: ");
+    scanf(" %[^\n]", nome_cidade); // Lê uma string com espaços até encontrar '\n'
+
+    printf("Entre com a população da cidade: ");
+    scanf("%d", &populacao);
+
+    printf("Entre com a área da cidade (em km²): ");
+    scanf("%f", &area);
+
+    printf("Entre com o PIB da cidade: ");
+    scanf("%f", &pib);
+
+    printf("Entre com o número de pontos turísticos: ");
+    scanf("%d", &pontos_turisticos);
+    
 
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
